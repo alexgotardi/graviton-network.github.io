@@ -241,7 +241,6 @@ window.fullofstars = window.fullofstars || {};
                 started = true;
                 $("#loading_indicator").delay(200).fadeOut(400);
                 $("#loading_cover").delay(600).fadeOut(1000);
-                $("#footnote").delay(5000).fadeOut(2000);
                 startGalaxySimulation();
             }
         };
